@@ -8,6 +8,8 @@ git remote add origin https://github.com/lamer0712/eurecar.git
 git push -u origin master
 
 push an existing repository from the command line
+git status
 git add *.*
 git commit -m "2nd commit"
 git push -u origin master
+git push

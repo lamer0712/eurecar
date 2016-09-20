@@ -1,0 +1,18 @@
+[cRIO-9024]
+cRIO-9024 = "10.0.1.250"
+
+[My Computer]
+My Computer = "172.16.182.1"
+
+[NI-cRIO-9030]
+NI-cRIO-9030 = "192.168.100.200"
+
+[NI-myRIO-1900]
+NI-myRIO-1900 = "172.22.11.2"
+
+[NI-sbRIO9606-01866155]
+NI-sbRIO9606-01866155 = "10.0.0.79"
+
+[veloster]
+veloster = "192.168.50.103"
+

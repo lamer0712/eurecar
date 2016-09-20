@@ -3532,7 +3532,6 @@ InactivityTimeout 60
 						<Item Name="CAN_IO_Frame Type.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nicrio_985x_controls.llb/CAN_IO_Frame Type.ctl"/>
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
-					<Item Name="serial_baudrate.vi" Type="VI" URL="../veloster/fpga/serial_baudrate.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="fpga4" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">

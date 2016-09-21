@@ -1,0 +1,21 @@
+package eurecar;
+
+struct vision_front_cam
+{
+	int64_t timestamp;
+
+	/*0: Not detected 1: Red 2: Yellow 3: Green(Left) 4: Green*/
+	int32_t traffic_signal;
+
+	/*0: Not detected 1: P1 2: P2 3: P3 4: P4 5: Stop sign*/
+	int32_t sign;
+	
+	/*0: Not detected 1: pedestrian on zibra cross line*/
+	boolean fl_pedestrian;
+	
+	/*0: Not detected 1: detected*/
+	boolean fl_car;
+	/*if(0.0): Not detected
+	else : car distance from current position*/
+	double car_distance;
+}

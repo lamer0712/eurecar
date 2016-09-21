@@ -38,7 +38,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="commander9.vi" Type="VI" URL="../commander9.vi"/>
+		<Item Name="commander10.vi" Type="VI" URL="../commander10.vi"/>
 		<Item Name="G_ALL.vi" Type="VI" URL="../G_ALL.vi"/>
 		<Item Name="G_SEN.vi" Type="VI" URL="../G_SEN.vi"/>
 		<Item Name="G_LCM.vi" Type="VI" URL="../G_LCM.vi"/>

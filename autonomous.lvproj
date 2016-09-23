@@ -471,7 +471,6 @@
 			</Item>
 			<Item Name="noerror.vi" Type="VI" URL="../LCM/noerror.vi"/>
 			<Item Name="obs_avoid.vi" Type="VI" URL="../code_car/collision/obs_avoid.vi"/>
-			<Item Name="path steer2.vi" Type="VI" URL="../code_car/controller/path steer2.vi"/>
 			<Item Name="path steer4.vi" Type="VI" URL="../code_car/controller/path steer4.vi"/>
 			<Item Name="rio_Global.vi" Type="VI" URL="../rio_Global.vi"/>
 			<Item Name="rotm_mimo.vi" Type="VI" URL="../code/rotm_mimo.vi"/>

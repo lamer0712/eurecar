@@ -50,6 +50,7 @@
 		<Item Name="collision_avoid.vi" Type="VI" URL="../code_car/collision/collision_avoid.vi"/>
 		<Item Name="Avante_shift.vi" Type="VI" URL="../code_car/shift/Avante_shift.vi"/>
 		<Item Name="laneleftright.vi" Type="VI" URL="../code_car/lane/laneleftright.vi"/>
+		<Item Name="graph4.vi" Type="VI" URL="../code/graph4.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">2</Property>
 			<Item Name="vi.lib" Type="Folder">
@@ -442,7 +443,6 @@
 			<Item Name="controller8.vi" Type="VI" URL="../code_car/controller/controller8.vi"/>
 			<Item Name="getecefdcmref.vi" Type="VI" URL="../code/getecefdcmref.vi"/>
 			<Item Name="gpsdata.vi" Type="VI" URL="../code/gpsdata.vi"/>
-			<Item Name="graph4.vi" Type="VI" URL="../code/graph4.vi"/>
 			<Item Name="hash.vi" Type="VI" URL="../LCM/hash.vi"/>
 			<Item Name="headingoperater.vi" Type="VI" URL="../code/headingoperater.vi"/>
 			<Item Name="Ibeopaser.vi" Type="VI" URL="../code_car/sensor/Ibeopaser.vi"/>

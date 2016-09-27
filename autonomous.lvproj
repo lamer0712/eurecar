@@ -51,6 +51,7 @@
 		<Item Name="Avante_shift.vi" Type="VI" URL="../code_car/shift/Avante_shift.vi"/>
 		<Item Name="laneleftright.vi" Type="VI" URL="../code_car/lane/laneleftright.vi"/>
 		<Item Name="graph4.vi" Type="VI" URL="../code/graph4.vi"/>
+		<Item Name="laneleftright2.vi" Type="VI" URL="../code_car/lane/laneleftright2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">2</Property>
 			<Item Name="vi.lib" Type="Folder">

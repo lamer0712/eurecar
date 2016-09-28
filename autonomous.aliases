@@ -2,7 +2,7 @@
 cRIO-9024 = "10.0.1.250"
 
 [My Computer]
-My Computer = "192.168.0.23"
+My Computer = "192.168.0.53"
 
 [NI-cRIO-9030]
 NI-cRIO-9030 = "192.168.100.200"

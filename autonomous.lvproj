@@ -51,7 +51,8 @@
 		<Item Name="Avante_shift.vi" Type="VI" URL="../code_car/shift/Avante_shift.vi"/>
 		<Item Name="laneleftright.vi" Type="VI" URL="../code_car/lane/laneleftright.vi"/>
 		<Item Name="graph4.vi" Type="VI" URL="../code/graph4.vi"/>
-		<Item Name="laneleftright2.vi" Type="VI" URL="../code_car/lane/laneleftright2.vi"/>
+		<Item Name="laneleftright3.vi" Type="VI" URL="../code_car/lane/laneleftright3.vi"/>
+		<Item Name="tracking4.vi" Type="VI" URL="../code_car/tracking/tracking4.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">2</Property>
 			<Item Name="vi.lib" Type="Folder">
@@ -478,7 +479,6 @@
 			<Item Name="rotm_obs_new.vi" Type="VI" URL="../code/rotm_obs_new.vi"/>
 			<Item Name="rotm_siso.vi" Type="VI" URL="../code/rotm_siso.vi"/>
 			<Item Name="sensor_log2.vi" Type="VI" URL="../code_car/sensor/sensor_log2.vi"/>
-			<Item Name="tracking4.vi" Type="VI" URL="../code_car/tracking/tracking4.vi"/>
 			<Item Name="UDP_read_receive_buffer.vi" Type="VI" URL="../comm/UDP_read_receive_buffer.vi"/>
 			<Item Name="UDP_set_receive_buffer.vi" Type="VI" URL="../comm/UDP_set_receive_buffer.vi"/>
 			<Item Name="velosterlcmpaser.vi" Type="VI" URL="../code_car/sensor/velosterlcmpaser.vi"/>

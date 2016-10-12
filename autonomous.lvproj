@@ -47,12 +47,16 @@
 		<Item Name="test3.vi" Type="VI" URL="../code_car/poly/test3.vi"/>
 		<Item Name="avitolcm.vi" Type="VI" URL="../camera/avitolcm.vi"/>
 		<Item Name="testbeep.vi" Type="VI" URL="../alert/testbeep.vi"/>
+		<Item Name="graph4.vi" Type="VI" URL="../code/graph4.vi"/>
 		<Item Name="collision_avoid.vi" Type="VI" URL="../code_car/collision/collision_avoid.vi"/>
 		<Item Name="Avante_shift.vi" Type="VI" URL="../code_car/shift/Avante_shift.vi"/>
 		<Item Name="laneleftright.vi" Type="VI" URL="../code_car/lane/laneleftright.vi"/>
-		<Item Name="graph4.vi" Type="VI" URL="../code/graph4.vi"/>
-		<Item Name="laneleftright4.vi" Type="VI" URL="../code_car/lane/laneleftright4.vi"/>
+		<Item Name="laneleftright412.vi" Type="VI" URL="../code_car/lane/laneleftright412.vi"/>
 		<Item Name="tracking4.vi" Type="VI" URL="../code_car/tracking/tracking4.vi"/>
+		<Item Name="path steer7.vi" Type="VI" URL="../code_car/controller/path steer7.vi"/>
+		<Item Name="ground.vi" Type="VI" URL="../code_car/ground/ground.vi"/>
+		<Item Name="laneleftright5.vi" Type="VI" URL="../code_car/lane/laneleftright5.vi"/>
+		<Item Name="LCM_data_assign.vi" Type="VI" URL="../LCM/LCM_data_assign.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">2</Property>
 			<Item Name="vi.lib" Type="Folder">
@@ -453,7 +457,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="LCM_data_assign.vi" Type="VI" URL="../LCM/LCM_data_assign.vi"/>
 			<Item Name="LCM_logger.vi" Type="VI" URL="../LCM/LCM_logger.vi"/>
 			<Item Name="LCM_read.vi" Type="VI" URL="../LCM/LCM_read.vi"/>
 			<Item Name="LCM_send.vi" Type="VI" URL="../LCM/LCM_send.vi"/>
@@ -2832,6 +2835,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="mobileye2ethernet.vi" Type="VI" URL="../samsung/mobileye2ethernet.vi"/>
 		<Item Name="rio 9030 3.vi" Type="VI" URL="../9030/rio 9030 3.vi"/>
+		<Item Name="Throttlebrakeswitch.vi" Type="VI" URL="../code_car/controller/Throttlebrakeswitch.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>

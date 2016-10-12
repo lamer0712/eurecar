@@ -25,6 +25,8 @@ class vision_lane_pt
 
         std::vector< double > y_coord;
 
+        std::vector< int32_t > point_flag;
+
     public:
         /**
          * Encode a message into binary form.
@@ -137,6 +139,11 @@ int vision_lane_pt::_encodeNoHash(void *buf, int offset, int maxlen) const
         if(tlen < 0) return tlen; else pos += tlen;
     }
 
+    if(this->num_of_points > 0) {
+        tlen = __int32_t_encode_array(buf, offset + pos, maxlen - pos, &this->point_flag[0], this->num_of_points);
+        if(tlen < 0) return tlen; else pos += tlen;
+    }
+
     return pos;
 }
 
@@ -162,6 +169,12 @@ int vision_lane_pt::_decodeNoHash(const void *buf, int offset, int maxlen)
         if(tlen < 0) return tlen; else pos += tlen;
     }
 
+    if(this->num_of_points) {
+        this->point_flag.resize(this->num_of_points);
+        tlen = __int32_t_decode_array(buf, offset + pos, maxlen - pos, &this->point_flag[0], this->num_of_points);
+        if(tlen < 0) return tlen; else pos += tlen;
+    }
+
     return pos;
 }
 
@@ -172,12 +185,13 @@ int vision_lane_pt::_getEncodedSizeNoHash() const
     enc_size += __int64_t_encoded_array_size(NULL, 1);
     enc_size += __double_encoded_array_size(NULL, this->num_of_points);
     enc_size += __double_encoded_array_size(NULL, this->num_of_points);
+    enc_size += __int32_t_encoded_array_size(NULL, this->num_of_points);
     return enc_size;
 }
 
 int64_t vision_lane_pt::_computeHash(const __lcm_hash_ptr *)
 {
-    int64_t hash = 0x533a3847cb5c4ddaLL;
+    int64_t hash = 0xc09599952b750c29LL;
     return (hash<<1) + ((hash>>63)&1);
 }
 

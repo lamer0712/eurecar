@@ -38,7 +38,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="commander10.vi" Type="VI" URL="../commander10.vi"/>
+		<Item Name="commander11.vi" Type="VI" URL="../commander11.vi"/>
 		<Item Name="G_ALL.vi" Type="VI" URL="../G_ALL.vi"/>
 		<Item Name="G_SEN.vi" Type="VI" URL="../G_SEN.vi"/>
 		<Item Name="G_LCM.vi" Type="VI" URL="../G_LCM.vi"/>
@@ -57,6 +57,8 @@
 		<Item Name="ground.vi" Type="VI" URL="../code_car/ground/ground.vi"/>
 		<Item Name="laneleftright5.vi" Type="VI" URL="../code_car/lane/laneleftright5.vi"/>
 		<Item Name="LCM_data_assign.vi" Type="VI" URL="../LCM/LCM_data_assign.vi"/>
+		<Item Name="sick_ground filter.vi" Type="VI" URL="../code_car/sensor/sick_ground filter.vi"/>
+		<Item Name="obsleftright.vi" Type="VI" URL="../code_car/collision/obsleftright.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">2</Property>
 			<Item Name="vi.lib" Type="Folder">
@@ -457,6 +459,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="laneleftright41.vi" Type="VI" URL="../code_car/lane/laneleftright41.vi"/>
 			<Item Name="LCM_logger.vi" Type="VI" URL="../LCM/LCM_logger.vi"/>
 			<Item Name="LCM_read.vi" Type="VI" URL="../LCM/LCM_read.vi"/>
 			<Item Name="LCM_send.vi" Type="VI" URL="../LCM/LCM_send.vi"/>
@@ -475,7 +478,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="noerror.vi" Type="VI" URL="../LCM/noerror.vi"/>
-			<Item Name="obs_avoid.vi" Type="VI" URL="../code_car/collision/obs_avoid.vi"/>
 			<Item Name="path steer4.vi" Type="VI" URL="../code_car/controller/path steer4.vi"/>
 			<Item Name="rio_Global.vi" Type="VI" URL="../rio_Global.vi"/>
 			<Item Name="rotm_mimo.vi" Type="VI" URL="../code/rotm_mimo.vi"/>
